@@ -1,0 +1,54 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pth
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# ---------------------------
+# Streamlit
+# ---------------------------
+.streamlit/
+
+# ---------------------------
+# Modelos y datos pesados
+# ---------------------------
+models/*.pth
+!models/download_models.py   # NO ignorar script de descarga
+
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# ---------------------------
+# Salidas
+# ---------------------------
+outputs/
+logs/
+inference_output/
+
+# ---------------------------
+# Sistemas operativos
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# VSCode
+# ---------------------------
+.vscode/
+*.code-workspace
+
+# ---------------------------
+# Cache de librerías
+# ---------------------------
+pip-wheel-metadata/
