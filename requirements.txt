@@ -1,12 +1,6 @@
-# ---------------------
-# Deep Learning (Render-compatible CPU versions)
-# ---------------------
-torch==2.5.1+cpu
-torchvision==0.20.1+cpu
+torch==2.5.1
+torchvision==0.20.1
 
-# ---------------------
-# Web App (Streamlit)
-# ---------------------
 streamlit>=1.29
 numpy
 pillow
@@ -14,15 +8,7 @@ opencv-python-headless
 scikit-image
 scikit-learn
 matplotlib
-
-# ---------------------
-# ML Utils
-# ---------------------
 tqdm
 pandas
 albumentations
-
-# ---------------------
-# Download helper
-# ---------------------
 gdown
