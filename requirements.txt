@@ -1,5 +1,6 @@
-torch==2.5.1
-torchvision==0.21.0
+torch==2.6.0
+torchvision==0.22.0
+torchaudio==2.6.0
 
 streamlit>=1.29
 numpy
