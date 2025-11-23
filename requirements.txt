@@ -1,11 +1,8 @@
-# PyTorch CPU Compatible with Python 3.10
-torch==2.0.1+cpu
-torchvision==0.15.2+cpu
-torchaudio==2.0.2+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+torchaudio
 
-# App
-streamlit==1.32.0
+streamlit
 numpy
 pillow
 opencv-python-headless
@@ -15,5 +12,5 @@ matplotlib
 tqdm
 pandas
 albumentations
-segmentation-models-pytorch==0.3.3
+segmentation-models-pytorch
 gdown
